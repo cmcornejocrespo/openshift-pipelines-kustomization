@@ -1,2 +1,1 @@
-# openshift-pipelines-kustomization
-Kustomization for deploying OpenShift Pipelines (Tekton)
+# Kustomization for Deploying OpenShift Pipelines (Tekton)
