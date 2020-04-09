@@ -20,3 +20,11 @@ $ curl \
     | sed --expression 's|namespace: tekton-pipelines|namespace: openshift-pipelines|g' \
     | oc apply --filename -
 ```
+
+Obtain the hostname for the tekton-dashboard route:
+
+```
+$ oc get route --namespace openshift-pipelines tekton-dashboard --output jsonpath='{.spec.host}'
+```
+
+Then visit https://<route_hostname> with your browser.
