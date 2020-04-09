@@ -16,7 +16,7 @@ $ oc apply --kustomize openshift-pipelines-instance/base
 ```
 $ curl \
     --location \
-    https://github.com/tektoncd/dashboard/releases/download/v0.6.1/openshift-tekton-dashboard-release.yaml \
+    https://github.com/tektoncd/dashboard/releases/download/v0.5.3/openshift-tekton-dashboard-release.yaml \
     | sed --expression 's|namespace: tekton-pipelines|namespace: openshift-pipelines|g' \
     | oc apply --filename -
 ```
