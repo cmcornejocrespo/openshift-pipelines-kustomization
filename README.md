@@ -2,7 +2,7 @@
 
 This kustomization uses [tektoncd-pipeline-operator](https://github.com/openshift/tektoncd-pipeline-operator).
 
-## Deploying OpenShift Pipelins
+## Deploying OpenShift Pipelines
 
 ```
 $ oc apply --kustomize openshift-pipelines-operator/base
