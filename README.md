@@ -14,6 +14,6 @@ $ oc apply --kustomize openshift-pipelines-instance/base
 
 ## Using OpenShift Pipelines
 
-Download the Tekton CLI (*tkn*) by following the [download instructions](https://github.com/tektoncd/cli#installing-tkn).
+Download the Tekton CLI (*tkn*) by following the [installation instructions](https://github.com/tektoncd/cli#installing-tkn).
 
 Refer to the [OpenShift Pipelines Tutorial](https://github.com/openshift/pipelines-tutorial).
