@@ -11,3 +11,7 @@ $ oc apply --kustomize openshift-pipelines-operator/base
 ```
 $ oc apply --kustomize openshift-pipelines-instance/base
 ```
+
+## Using OpenShift Pipelines
+
+Refer to the [OpenShift Pipelines Tutorial](https://github.com/openshift/pipelines-tutorial).
