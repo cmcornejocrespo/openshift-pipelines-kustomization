@@ -2,10 +2,17 @@
 
 This kustomization uses [tektoncd-pipeline-operator](https://github.com/openshift/tektoncd-pipeline-operator).
 
+## Deploying OpenShift Pipelins
+
 ```
 $ oc apply --kustomize openshift-pipelines-operator/base
 ```
 
 ```
 $ oc apply --kustomize openshift-pipelines-instance/base
+```
+## Deploying a dashboard for Tekton
+
+```
+$ kubectl apply --filename https://github.com/tektoncd/dashboard/releases/download/v0.6.0/openshift-tekton-dashboard-release.yaml
 ```
