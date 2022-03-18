@@ -16,10 +16,6 @@ $ oc get pod --namespace openshift-operators | grep pipelines
 openshift-pipelines-operator-9cdbbb854-rhzsx   1/1     Running   0          98s
 ```
 
-Deploy openshift-pipelines control plane:
-
-```
-$ oc apply --kustomize openshift-pipelines-instance/base
 ```
 
 Verify that the openshift-pipelines control plane pods are running:
